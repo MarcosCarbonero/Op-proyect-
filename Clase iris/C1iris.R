@@ -8,5 +8,4 @@ hist(df$Petal.Width,main =" European University - Histogram of Petal with ",
 rm(list = ls())
 detach("package:datasets",unload = TRUE )
 graphics.off()
-
-
+cat("\014")
