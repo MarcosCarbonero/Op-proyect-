@@ -25,3 +25,4 @@ modeloRForest <- randomFores(x=datos[training.ids,1:5],
                              y= datos[training.ids,5],
                              ntree =500,
                              keep.forest=TRUE)
+#problemas con random forest
